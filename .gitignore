@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables (contains secrets)
+.env
+
+# Neo4j and Local databases
+*.db
+*.sqlite3
+*.pkl
+
+# IDE files
+.vscode/
+.idea/
+
+# =============================================================================
+# Project-specific exclusions
+# =============================================================================
+
+# Notebooks - Colab experiments, not production code
+notebooks/
+
+# Scratch/one-time helper scripts
+scratch/
+
+# Data files - large datasets and processed data
+data/
+# EXCEPT keep the directory structure (uncomment if needed)
+# data/
+
+# Trained model artifacts - should be on HuggingFace Hub
+artifacts/
+
+# Results and submission files
+results.json
+results_full.json
+submission.zip
+generate_submission.py
+generate_sample_submission.py
+
+# HuggingFace Spaces - deploy separately
+hf_space_reranker/
+hf_space_reranker_base/
+
+# Documentation (optional - comment out if you want to keep docs)
+docs/
+
+# Large zip file
+*.zip
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
